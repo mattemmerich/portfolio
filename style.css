@@ -1,0 +1,317 @@
+#body{
+	background-color: #f9ff64;
+	border:#201712 3px solid;
+  font-family: 'Emblema One', cursive;
+  margin: 0 10px 0 10px ;
+
+}
+
+body{
+	margin: 0;
+	cursor: pointer;
+}
+
+#header{
+	background-color: #f9ff64;
+	color: #f64c00;
+	font-family: 'Emblema One', cursive;
+	cursor: pointer;
+}
+
+#info{
+	font-family: 'Emblema One', cursive;
+	cursor: pointer;
+}
+
+#projects:hover{
+	color:black;
+
+}
+
+ul {
+  list-style-type: none;
+	text-align: center;
+	padding-right:18%;
+}
+
+
+
+.alignleft {
+	float: left;
+	padding-left:10px;
+	font-family: 'Emblema One', cursive;
+}
+.alignright {
+	float: right;
+	padding-right: 10px;
+	font-family: 'Emblema One', cursive;
+}
+
+/*.projects_box{
+	text-align: center;
+
+}*/
+.info_block{
+	text-align: center;
+
+}
+
+.info_block h4{
+	text-align: center;
+
+}
+
+ ul li a{
+	color:#676ee5;
+	cursor:pointer;
+}
+
+
+div.dropmenus {
+	position:relative;
+	top:100px;
+	margin: 0 auto;
+	width:250px;
+	background-color: #f9ff64;
+	z-index:2;
+	padding:4px;
+	border:#f9ff64 3px solid;
+	border-top:none;
+	-moz-border-radius:8px 8px 8px 8px;
+	border-radius:8px 8px 8px 8px;
+	font-family: 'Timmana', sans-serif;
+
+	z-index: 10;
+}
+
+h4:hover{
+	color:  #f64c00;
+	font-size: 150%;
+	cursor: pointer;
+	font-family: 'Racing Sans One', cursive;
+	z-index: 10;
+}
+
+div.dropmenus > a {
+	display:block;
+	margin:4px;
+	padding:7px;
+	font-size:14px;
+	text-decoration:none;
+	background-color:white;
+	border:#201712 1px solid;
+	color:#201712;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  font-family: 'Racing Sans One', cursive;
+  cursor: pointer;
+	z-index: 10;
+}
+
+div.dropmenus > a:hover {
+	background-color:red;
+	color: white;
+	border:#f4e3cf 1px solid;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	font-family: 'Racing Sans One', cursive;
+	cursor: pointer;
+	z-index: 10;
+}
+
+
+h4{
+	/*font-weight: 1000;*/
+}
+
+
+
+div.projects_box{
+	display:none;
+	height: 150vh;
+	width: 380px;
+	background-color: rgba(255,0,0, 0.8);
+	position: absolute;
+	right:0px;
+	z-index:2;
+	float:left;
+	font-family: 'Racing Sans One', cursive;
+
+}
+
+#social{
+	width:50%;
+  margin: 0 auto;
+	position: absolute;
+  left: 50%;
+  margin-left: -100px;
+}
+
+
+#social li{
+	float:left;
+	list-style:none;
+
+}
+
+#social a{
+	display:block;
+}
+
+
+
+#footer {
+	/*
+	font-family:'Old Standard TT', serif;
+	position:absolute;
+  width:100%;
+  height:60px;
+  z-index: 100;
+  right: 0;
+	bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+	/* Height of the footer */
+	clear: both;
+  position: relative;
+  z-index: 10;
+  height: 10em;
+  margin-top: -3em;
+  background-color: #f9ff64;
+	width: 100%;
+ 	text-align: center;
+
+}
+
+#social{
+ width: 50%;
+ margin: 0 auto;
+}
+
+
+@media screen and (max-width: 720px) {
+
+
+div.projects_box{
+	width: 100%;
+	right: 0;
+	/*margin-left: 30%;*/
+	font-family: 'Timmana', sans-serif;
+
+	z-index: 10;
+
+}
+}
+
+.info_block{
+	text-align: center;
+
+}
+
+
+
+
+div.projects_box a{
+	text-decoration: none;
+	font-family: 'Timmana', sans-serif;
+
+	z-index: 10;
+
+}
+
+ul {
+  list-style-type: none;
+	text-align: center;
+	padding-right:18%;
+}
+
+h4:hover{
+	color:  #f64c00;
+	font-size: 150%;
+	z-index: 10;
+}
+
+#projects:hover{
+	color:black;
+
+}
+
+#social{
+	width:75%;
+  margin: 0 auto;
+	display: inline-block;
+	position: absolute;
+  left: 50%;
+  margin-left: -100px;
+}
+
+
+#social li{
+	float:left;
+	list-style:none;
+
+}
+
+#social a{
+	display:block;
+}
+
+
+
+#git{
+	/*background:url()0 0;*/
+	margin: 8px;
+	width: auto;
+	opacity:0.5;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	transition:opacity 0.5s;
+	height: 50px;
+}
+
+#git:hover {
+	/*background:url("img/git2.png");*/
+	opacity:1;
+}
+
+
+#link{
+	margin:8px;
+	width:auto;
+	height:50px;
+	opacity:0.5;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	transition:opacity 0.5s;
+}
+
+#link:hover{
+	opacity:1;
+}
+
+#footer {
+	/*background-color: #f9ff64;
+	font-family:'Old Standard TT', serif;
+	position:absolute;
+  width:100%;
+  height:60px;
+  z-index: 100;
+  right: 0;
+	bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+	/* Height of the footer */
+	clear: both;
+  position: relative;
+  z-index: 2;
+  height: 30em;
+	margin-top: -3em;
+  background-color: #f9ff64;
+	width: 100%;
+ 	text-align: center;
+
+
+
+}
